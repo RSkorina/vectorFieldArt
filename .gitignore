@@ -1,3 +1,16 @@
+data/
+
+*.bundle.*
+lib/
+node_modules/
+*.egg-info/
+.ipynb_checkpoints
+*.tsbuildinfo
+
+# Created by https://www.gitignore.io/api/python
+# Edit at https://www.gitignore.io/?templates=python
+
+### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -20,8 +33,13 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
+pip-wheel-metadata/
+share/python-wheels/
+=======
 share/python-wheels/
 *.egg-info/
+>>>>>>> b7bed5c432ca926480549666079c4ac15dfd4ce3
 .installed.cfg
 *.egg
 MANIFEST
@@ -46,15 +64,22 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
+.hypothesis/
+.pytest_cache/
+=======
 *.py,cover
 .hypothesis/
 .pytest_cache/
 cover/
+>>>>>>> b7bed5c432ca926480549666079c4ac15dfd4ce3
 
 # Translations
 *.mo
 *.pot
 
+<<<<<<< HEAD
+=======
 # Django stuff:
 *.log
 local_settings.py
@@ -65,6 +90,7 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
+>>>>>>> b7bed5c432ca926480549666079c4ac15dfd4ce3
 # Scrapy stuff:
 .scrapy
 
@@ -72,6 +98,15 @@ instance/
 docs/_build/
 
 # PyBuilder
+<<<<<<< HEAD
+target/
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+=======
 .pybuilder/
 target/
 
@@ -123,10 +158,13 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
+>>>>>>> b7bed5c432ca926480549666079c4ac15dfd4ce3
 
 # SageMath parsed files
 *.sage.py
 
+<<<<<<< HEAD
+=======
 # Environments
 .env
 .venv
@@ -136,6 +174,7 @@ ENV/
 env.bak/
 venv.bak/
 
+>>>>>>> b7bed5c432ca926480549666079c4ac15dfd4ce3
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -143,6 +182,14 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
+<<<<<<< HEAD
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+=======
+>>>>>>> b7bed5c432ca926480549666079c4ac15dfd4ce3
 # mkdocs documentation
 /site
 
@@ -154,6 +201,41 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+<<<<<<< HEAD
+# OS X stuff
+*.DS_Store
+
+# End of https://www.gitignore.io/api/python
+
+_temp_extension
+junit.xml
+[uU]ntitled*
+notebook/static/*
+!notebook/static/favicons
+notebook/labextension
+notebook/schemas
+docs/source/changelog.md
+docs/source/contributing.md
+
+# playwright
+ui-tests/test-results
+ui-tests/playwright-report
+
+# VSCode
+.vscode
+
+# RTC
+.jupyter_ystore.db
+
+# yarn >=2.x local files
+.yarn/*
+.pnp.*
+ui-tests/.yarn/*
+ui-tests/.pnp.*
+
+# generated html
+notebook/templates/*.html
+=======
 # pytype static type analyzer
 .pytype/
 
@@ -169,3 +251,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+>>>>>>> b7bed5c432ca926480549666079c4ac15dfd4ce3
